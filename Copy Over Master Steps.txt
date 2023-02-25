@@ -1,7 +1,7 @@
 git checkout master
 git pull
-git checkout seotweaks
+git checkout SFT-Dev
 git merge -s ours master
 git checkout master
-git merge seotweaks
+git merge SFT-Dev
 git push
