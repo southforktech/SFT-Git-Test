@@ -1,0 +1,7 @@
+git checkout master
+git pull
+git checkout seotweaks
+git merge -s ours master
+git checkout master
+git merge seotweaks
+git push
